@@ -1,12 +1,14 @@
-# React + Vite
+🛒 FrikieStore - Online Shop Store with React + API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web Project are consume public API of FakeStoreAPI using React, Axios, Vite
+It allows show the products in the catalog format, with responsive design and REST API consumption functionality.
 
-Currently, two official plugins are available:
+Technologies using:
+-React
+-Vite
+-Axios
+-HTML/CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+link of the public API: https://fakestoreapi.com/products
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
