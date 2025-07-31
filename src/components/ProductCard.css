@@ -1,0 +1,63 @@
+.product-card {
+  width: 280px; /*ancho de la tarjeta */
+  background: #ffffff;
+  border-radius: 12px; /*bordes redondeados */
+  padding: 20px;/*espaciado interno*/
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);/*sombra suave */
+  transition: transform 0.3s;/*animacion al pasar el mouse */
+  display: flex; /*contenedor flexible */
+  flex-direction: column;/*hijos de un contenedor se acomodan en columna */
+  align-items: center;
+}
+
+.product-card:hover {
+  transform: scale(1.03);/*agranda un poco la tarjta al pasar el mouse */
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;/*ajusta la img sin deformarla */
+  margin-bottom: 16px;
+}
+
+.product-title {
+  color: #777;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.product-category {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.product-price {
+  color: #2196f3;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.product-rating {
+  font-size: 14px;
+  color: #ffa000;
+  margin-bottom: 12px;/*espaciado debajo del item */
+}
+
+.add-btn {
+  padding: 10px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #388e3c;/* Verde más oscuro al pasar el mouse */
+}
