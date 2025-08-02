@@ -1,6 +1,7 @@
 import React from "react";
 
-const Cart = ({cartItems, onRemove, onClose}) => {
+
+const Cart = ({cartItems, onRemove, onClose, onCheckout}) => {
     return (
         <div style={{
             position: "fixed",
@@ -66,7 +67,7 @@ const Cart = ({cartItems, onRemove, onClose}) => {
                     }}>
                         Seguir comprando
                     </button>
-                    <button onClick={() => alert("¡¡CONTINUAR!!")} style={{
+                    <button onClick={onCheckout} style={{
                         backgroundColor: "#27ae60",
                         color: "#fff",
                         border: "none",

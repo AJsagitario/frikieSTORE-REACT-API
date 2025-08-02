@@ -1,0 +1,60 @@
+.success-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.8s ease-in;
+}
+
+.success-title {
+  color: #2ecc71;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.success-image {
+  width: 300px;
+  margin: 30px auto;
+  transition: transform 0.3s ease;
+}
+
+.success-image:hover {
+  transform: scale(1.05);
+}
+
+.success-button {
+  padding: 12px 25px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.success-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
