@@ -1,0 +1,90 @@
+.container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 320px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  z-index: 1000;
+  max-height: 80vh;
+  overflow: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+
+.item {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.item p {
+  margin: 4px 0;
+  color: #444;
+}
+
+.btnRemove {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+.btnContinue,
+.btnCheckout {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btnContinue {
+  background-color: #3498db;
+}
+
+.btnContinue:hover {
+  background-color: #2980b9;
+}
+
+.btnCheckout {
+  background-color: #27ae60;
+}
+
+.btnCheckout:hover {
+  background-color: #1e8449;
+}

@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Cart from "./components/Cart";
 import Checkout from "./pages/Checkout";
 import Success from "./pages/Success";
+import "./responsive.css";
 
 
 function App(){
