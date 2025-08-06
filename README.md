@@ -1,5 +1,7 @@
 🛒 FrikieStore - Online Shop Store with React + FakeStore API
 
+LIVE demo: [https://frikie-store-react-api.vercel.app]
+
 FrikieStore is an e-commerce web app built using React, which consumes a public API via Axios. It allows users to browse products, add them to a cart, simulate a checkout process, and choose from various payment methods. The app is fully responsive and optimized for all device sizes.
 
 Technologies used:
@@ -8,7 +10,7 @@ Technologies used:
 -Axios
 -HTML/CSS
 
-link of the public API: https://fakestoreapi.com/products
+link of the public API: [https://fakestoreapi.com/products]
 
 Main Feactures
 
